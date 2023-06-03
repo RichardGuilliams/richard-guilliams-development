@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Header from '../components/header'
 import Footer from '../components/footer'
 import SVG from '../components/SVG'
@@ -32,10 +33,10 @@ function ProjectsSection({ animatedClass }) {
             <ul>
                 <li className="portfolio__card">
                     <div>
-                        <img alt={`forkify img`} src="./img/portfolio-projects/forkify.png"/>
+                        <Image alt={`forkify img`} src="./img/portfolio-projects/forkify.png"/>
                         <div>
                             <h3>Forkify</h3>
-                            <p>This was the first big project I completed in Jonas Schmedtmann's Javascript course. It makes calls to a recipe API to Get and Post recipe data.</p>
+                            <p>This was the first big project I completed in Jonas Schmedtmann&apos;s Javascript course. It makes calls to a recipe API to Get and Post recipe data.</p>
                             <p>The part I found most interesting about this project was learning how to update specific parts of the dom without the need for a page reload.</p>  
                             <a className="button_2" href="https://forkify-richardguilliams.netlify.app/">View App</a>
                         </div>  
@@ -44,7 +45,7 @@ function ProjectsSection({ animatedClass }) {
                 </li>
                 <li className="portfolio__card">
                     <div>
-                        <img alt={`natours img`} src="./img/portfolio-projects/natours.png"/>
+                        <Image alt={`natours img`} src="./img/portfolio-projects/natours.png"/>
                         <div>
                             <h3>Natours</h3>
                             <p>This project was built using Express and MongoDB. It allows payment processing through stripe which was tricky to implement do to depreciation of certain properties in the stripe webhook connection.</p>

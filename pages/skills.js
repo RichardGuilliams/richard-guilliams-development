@@ -42,11 +42,11 @@ function SkillsSection({ isActive }) {
           </li>
           <li>
             <h3>React</h3>
-            <p>As a skilled React developer, I specialize in creating powerful and dynamic user interfaces. Leveraging the flexibility and reusability of React components, I can build interactive and responsive web applications that provide seamless user experiences. With React's virtual DOM and efficient rendering, I ensure optimal performance and scalability. Whether it's building complex frontend functionalities or integrating with backend systems, my expertise in React enables me to create visually stunning and highly functional applications that engage users and drive results.</p>
+            <p>As a skilled React developer, I specialize in creating powerful and dynamic user interfaces. Leveraging the flexibility and reusability of React components, I can build interactive and responsive web applications that provide seamless user experiences. With React&apos;s virtual DOM and efficient rendering, I ensure optimal performance and scalability. Whether it&apos;s building complex frontend functionalities or integrating with backend systems, my expertise in React enables me to create visually stunning and highly functional applications that engage users and drive results.</p>
           </li>
           <li>    
             <h3>MongoDB</h3>
-            <p>Proficient in MongoDB, a popular NoSQL database, I can efficiently handle data storage and management for web applications. I leverage MongoDB's flexibility to design database structures that adapt to evolving needs. By utilizing its querying capabilities, I can ensure efficient data retrieval and storage, enhancing overall application performance.</p>
+            <p>Proficient in MongoDB, a popular NoSQL database, I can efficiently handle data storage and management for web applications. I leverage MongoDB&apos;s flexibility to design database structures that adapt to evolving needs. By utilizing its querying capabilities, I can ensure efficient data retrieval and storage, enhancing overall application performance.</p>
           </li>
         </ul>
       </div>

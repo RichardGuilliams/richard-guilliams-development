@@ -1,36 +1,39 @@
 import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 function Header() {
     return (
         <header className="header">
-            <img alt={`richard guilliams logo`} className="logo" src="./img/logo.png"/>
+            <Image alt={`richard guilliams logo`} className="logo" src="./img/logo.png"/>
             <h1>Richard Guilliams</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="/">
+                        <Link href="/">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/services">
+                        <Link href="/services">
                             Services
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/projects">
+                        <Link href="/projects">
                             Projects
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a class="button_2 button_3" href="/contact">
+                        <Link className="button_2 button_3" href="/contact">
                             Contact
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/about">
+                        <Link href="/about">
                             About
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

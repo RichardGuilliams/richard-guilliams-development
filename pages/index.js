@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Alert from '../components/alert';
@@ -28,20 +30,20 @@ function HeroSection() {
         Unlocking Web Solutions for Small Businesses and Beyond.
       </h2>
       <div>
-        <img
+        <Image
           alt={`hero img`}
           className={`hero__img slide-left ${isAnimated ? 'slide-in' : ''}`}
           src="../img/people/richard-guilliams.png"
         />
         <div className={`hero__img slide-up ${isAnimated ? 'slide-in' : ''}`}>
           <p>
-            Hello, I'm Richard, a dedicated software developer offering freelance contract services.
+            Hello, I&apos;m Richard, a dedicated software developer offering freelance contract services.
             With Proficiency in JavaScript, React, Express, and Node.js, I specialize in building
             powerful websites for small businesses and contributing to larger projects.
           </p>
-          <a className="button_2" href="/contact">
+          <Link className="button_2" href="/contact">
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
     </div>
