@@ -174,7 +174,9 @@ function Header() {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                 alt: `richard guilliams logo`,
                 className: "logo",
-                src: "./img/logo.png"
+                width: 150,
+                height: 150,
+                src: "/img/logo.png"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                 children: "Richard Guilliams"

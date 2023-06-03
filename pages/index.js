@@ -31,9 +31,11 @@ function HeroSection() {
       </h2>
       <div>
         <Image
+          width={100}
+          height={100}
           alt={`hero img`}
           className={`hero__img slide-left ${isAnimated ? 'slide-in' : ''}`}
-          src="../img/people/richard-guilliams.png"
+          src="/img/people/richard-guilliams.png"
         />
         <div className={`hero__img slide-up ${isAnimated ? 'slide-in' : ''}`}>
           <p>

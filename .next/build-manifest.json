@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/CYpIoZNKTSch97ufvshCu/_buildManifest.js",
-    "static/CYpIoZNKTSch97ufvshCu/_ssgManifest.js"
+    "static/hJlCwGjrgAJXtKsIwqL9d/_buildManifest.js",
+    "static/hJlCwGjrgAJXtKsIwqL9d/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -20,7 +20,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/index-62c6556cbd6de4bc.js"
+      "static/chunks/pages/index-23a0c81e98adddee.js"
     ],
     "/_app": [
       "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -40,7 +40,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/about-ade793a21c9a9ced.js"
+      "static/chunks/pages/about-7deb801dc9c73aa3.js"
     ],
     "/contact": [
       "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -48,7 +48,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/contact-763223a351fcd108.js"
+      "static/chunks/pages/contact-acbb4f260ae158db.js"
     ],
     "/projects": [
       "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -56,7 +56,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/projects-a0f6362f5b9ae2ea.js"
+      "static/chunks/pages/projects-2d49b36f850eb408.js"
     ],
     "/services": [
       "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -64,7 +64,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/services-6b0f2bf9e67546fb.js"
+      "static/chunks/pages/services-fb213045a2a1fdb4.js"
     ],
     "/skills": [
       "static/chunks/webpack-5d58311be02c3b9c.js",
@@ -72,7 +72,7 @@
       "static/chunks/main-eb502d3d3c7e5597.js",
       "static/chunks/61-922adcb04df1a4bf.js",
       "static/css/641a3ca26f41ff29.css",
-      "static/chunks/pages/skills-5aafea03caa4bafa.js"
+      "static/chunks/pages/skills-70dcb6297af92d37.js"
     ]
   },
   "ampFirstPages": []

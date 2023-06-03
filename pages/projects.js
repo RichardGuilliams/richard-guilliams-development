@@ -33,7 +33,7 @@ function ProjectsSection({ animatedClass }) {
             <ul>
                 <li className="portfolio__card">
                     <div>
-                        <Image alt={`forkify img`} src="./img/portfolio-projects/forkify.png"/>
+                        <Image width={100} height={100} alt={`forkify img`} src="/img/portfolio-projects/forkify.png"/>
                         <div>
                             <h3>Forkify</h3>
                             <p>This was the first big project I completed in Jonas Schmedtmann&apos;s Javascript course. It makes calls to a recipe API to Get and Post recipe data.</p>
@@ -45,7 +45,7 @@ function ProjectsSection({ animatedClass }) {
                 </li>
                 <li className="portfolio__card">
                     <div>
-                        <Image alt={`natours img`} src="./img/portfolio-projects/natours.png"/>
+                        <Image width={100} height={100} alt={`natours img`} src="/img/portfolio-projects/natours.png"/>
                         <div>
                             <h3>Natours</h3>
                             <p>This project was built using Express and MongoDB. It allows payment processing through stripe which was tricky to implement do to depreciation of certain properties in the stripe webhook connection.</p>

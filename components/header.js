@@ -6,7 +6,7 @@ import Image from 'next/image';
 function Header() {
     return (
         <header className="header">
-            <Image alt={`richard guilliams logo`} className="logo" src="./img/logo.png"/>
+            <Image alt={`richard guilliams logo`} className="logo" width={150} height={150} src="/img/logo.png"/>
             <h1>Richard Guilliams</h1>
             <nav>
                 <ul>
@@ -41,4 +41,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Header;  
