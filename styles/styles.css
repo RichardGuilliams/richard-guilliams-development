@@ -452,7 +452,7 @@ footer > ul > li > a{
   .hero-container{
     display: flex;
   }
-
+  
   .card-skill{
     width: 35%;
     border-radius: 5PX;
@@ -476,11 +476,39 @@ footer > ul > li > a{
 }
 
 @media all and (min-width: 800px){
-  .nav-hidden{
+  .hero{
+    margin: 10rem;
+  }
+  
+  .hero > div > div{
+    flex: 3;
+  } 
+
+  .button_2{
+    align-self: flex-end;
+  }
+  
+  .hero-container{
     display: flex;
   }
 
+  .nav-hidden{
+    display: flex;
+  }
+  
   .dropdown{
     display: none;
   }
+
+  .section{
+    margin: 8rem 12rem;
+  }
 }
+
+
+@media all and (min-width: 1200px){
+  .section{
+    margin: 8rem 24rem;
+  }
+}
+
