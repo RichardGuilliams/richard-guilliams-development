@@ -174,7 +174,7 @@
     font-size: .9rem;
   }
 
-  .hidden{
+  .nav-hidden{
     display: none;
   }
   
@@ -447,5 +447,15 @@
       margin: .25rem;
       font-size: .75rem;
       color: var(--link-color)
-    }
   }
+}
+
+@media all and (min-width: 800px){
+    .nav-hidden{
+      display: flex;
+    }
+
+    .dropdown{
+      display: none;
+    }
+}

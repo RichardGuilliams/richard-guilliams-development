@@ -17,7 +17,7 @@ function Header() {
 
 function FullNav(){
     return(
-        <nav className={`hidden`}>
+        <nav className={`nav-hidden`}>
             <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/services">Services</Link></li>
