@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import '../styles/styles.css';
@@ -13,44 +14,56 @@ function Skills(){
     )
 }
 
-function SkillsSection({ isActive }) {
-  const [isAnimated, setIsAnimated] = useState(false);
-
-  useEffect(() => {
-    setIsAnimated(true);
-  }, []);
-
-    return(
-      <div className={`section section__extra-margin slide-down ${isAnimated ? 'slide-in' : ''}`} id="skills">
-        <h2>My Skills</h2>
-        <ul>
-          <li>
-            <h3>Javascript</h3>
-            <p>With my expertise in JavaScript, I can create dynamic and interactive web applications. I leverage the power of this versatile language to enhance user experiences, handle client-side validations, and implement complex functionality on the frontend.</p>
-          </li>
-          <li>
-            <h3>HTML</h3>
-            <p>Proficient in HTML, I possess the ability to structure web content effectively. I use semantic markup to ensure accessibility, readability, and search engine optimization. Crafting clean and well-organized HTML code is my priority to deliver exceptional user experiences.</p>
-          </li>
-          <li>
-            <h3>CSS</h3>
-            <p>Mastery of CSS allows me to bring life to web applications by designing visually appealing interfaces. I utilize CSS to create responsive layouts, style elements, and ensure consistent branding. By leveraging the latest CSS techniques, I can provide engaging and seamless user interfaces across different devices.</p>
-          </li>
-          <li>
-            <h3>Express</h3>
-            <p>With my expertise in Express, a powerful Node.js framework, I can build robust and scalable backend systems. I utilize Express to handle routing, manage requests and responses, and develop efficient APIs. This enables me to create seamless communication between the frontend and backend, delivering high-performing web applications.</p>      
-          </li>
-          <li>
-            <h3>React</h3>
-            <p>As a skilled React developer, I specialize in creating powerful and dynamic user interfaces. Leveraging the flexibility and reusability of React components, I can build interactive and responsive web applications that provide seamless user experiences. With React&apos;s virtual DOM and efficient rendering, I ensure optimal performance and scalability. Whether it&apos;s building complex frontend functionalities or integrating with backend systems, my expertise in React enables me to create visually stunning and highly functional applications that engage users and drive results.</p>
-          </li>
-          <li>    
-            <h3>MongoDB</h3>
-            <p>Proficient in MongoDB, a popular NoSQL database, I can efficiently handle data storage and management for web applications. I leverage MongoDB&apos;s flexibility to design database structures that adapt to evolving needs. By utilizing its querying capabilities, I can ensure efficient data retrieval and storage, enhancing overall application performance.</p>
-          </li>
-        </ul>
-      </div>
-    )
+function SkillsSection({animatedClass}){
+  return(
+    <div className="section section__extra-margin skills">
+      <h2 className={`slide-down ${animatedClass}`}>My Skills</h2>
+      <ul className={`skill-container`}>
+        <li className={`card card-skill slide-right ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/nodejs.png`}/>
+            <h3 className={`skill-title`}>NodeJS</h3>
+          </div>
+          <p>NodeJS allows me to step out of the browser and run Javascript on the backend.</p>
+        </li>
+        <li className={`card card-skill slide-left ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/html-css-js.png`}/>
+            <h3 className={`skill-title`}>HTML, CSS and JS</h3>
+          </div>
+          <p>With HTML, CSS and Javascript I can build out responsive and functional web pages.</p>
+        </li>
+        <li className={`card card-skill slide-right ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/mongodb.png`}/>
+            <h3 className={`skill-title`}>MongoDB</h3>
+          </div>
+          <p>MongoDB let's me dive into database creation to build powerful business solutions.</p>
+        </li>
+        <li className={`card card-skill slide-left ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/react.png`}/>
+            <h3 className={`skill-title`}>React</h3>
+          </div>
+          <p>React lets me easily write reusable front-end components that make my life way easier</p>
+        </li>
+        <li className={`card card-skill slide-right ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/postman.png`}/>
+            <h3 className={`skill-title`}>Postman</h3>
+          </div>
+          <p>Postman lets me build, test and write documentation for all my API needs with ease.</p>
+        </li>
+        <li className={`card card-skill slide-right ${animatedClass}`}>
+          <div>
+            <Image width={100} height={60} src={`/img/express.png`}/>
+            <h3 className={`skill-title`}>Express</h3>
+          </div>
+          <p>Express lets me build powerful web applications with secure routing, user authentication and handling of sensitive data.</p>
+        </li>
+      </ul>
+    </div>
+  )
 }
 
 export default Skills

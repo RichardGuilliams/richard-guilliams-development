@@ -21,6 +21,7 @@ function FullNav(){
             <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/services">Services</Link></li>
+                <li><Link href="/skills">Skills</Link></li>
                 <li><Link href="/projects">Projects</Link></li>
                 <li><Link className="button_2 button_3" href="/contact">Contact</Link></li>
                 <li><Link href="/about">About</Link></li>
@@ -38,6 +39,7 @@ function IconNav(){
             <ul className="dropdown-menu">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/services">Services</Link></li>
+                <li><Link href="/skills">Skills</Link></li>
                 <li><Link href="/projects">Projects</Link></li>
                 <li><Link className="button_2 button_3" href="/contact">Contact</Link></li>
                 <li><Link href="/about">About</Link></li>
