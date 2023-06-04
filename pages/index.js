@@ -29,7 +29,7 @@ function HeroSection() {
       <h2 className={`slide-right ${isAnimated ? 'slide-in' : ''}`}>
         Unlocking Web Solutions for Small Businesses and Beyond.
       </h2>
-      <div>
+      <div className={`hero-container`}>
         <Image
           width={100}
           height={100}
