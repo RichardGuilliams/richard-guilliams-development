@@ -8,7 +8,6 @@
     --link-highlight-color: rgb(255, 255, 255);
 }
 
-
 * {
   padding: 0;
   margin: 0;
@@ -254,6 +253,7 @@ header > nav > ul > li > a {
   background-color: var(--link-color);
 }
 
+
 .skill-container{
   justify-content: center;
   display: flex;
@@ -375,7 +375,7 @@ header > nav > ul > li > a {
 
 
 
-  
+
 /* --------------------------------------------------------------
 /* Footer */
 /*--------------------------------------------------------------*/
@@ -438,6 +438,7 @@ footer > ul > li > a{
     margin: auto;
     margin-right: 2rem;
     flex: 1;
+    width: 30%;
     object-fit: cover;
   }
   
@@ -458,7 +459,7 @@ footer > ul > li > a{
     border-radius: 5PX;
     text-align: center;
   }
-
+  
   footer > ul:nth-child(2), footer > ul:nth-child(3){
     display: flex;  
     align-items: center;
@@ -471,7 +472,7 @@ footer > ul > li > a{
     margin-right: .5rem;
     margin: .25rem;
     font-size: .75rem;
-    color: var(--link-color)
+    color: var(--link-color);
   }
 }
 
@@ -483,7 +484,7 @@ footer > ul > li > a{
   .hero > div > div{
     flex: 3;
   } 
-
+  
   .button_2{
     align-self: flex-end;
   }
@@ -499,16 +500,18 @@ footer > ul > li > a{
   .dropdown{
     display: none;
   }
-
+  
   .section{
     margin: 8rem 12rem;
   }
 }
 
-
 @media all and (min-width: 1200px){
   .section{
     margin: 8rem 24rem;
   }
-}
 
+  .skills{
+    padding-bottom: 2rem;
+  }
+}

@@ -33,7 +33,7 @@ function ProjectsSection({ animatedClass }) {
                   <div>
                       <div>
                         <h3>Forkify</h3>
-                        <Image width={100} height={100} alt={`forkify img`} src="/img/portfolio-projects/forkify.png"/>
+                        <Image width={1200} height={1200} alt={`forkify img`} src="/img/portfolio-projects/forkify.png"/>
                         <p>This was the first big project I completed in Jonas Schmedtmann&apos;s Javascript course. It makes calls to a recipe API to Get and Post recipe data.</p>
                         <p>The part I found most interesting about this project was learning how to update specific parts of the dom without the need for a page reload.</p>  
                         <a className="button_2" href="https://forkify-richardguilliams.netlify.app/">View App</a>
@@ -45,7 +45,7 @@ function ProjectsSection({ animatedClass }) {
                   <div>
                       <div>
                         <h3>Natours</h3>
-                        <Image width={100} height={100} alt={`natours img`} src="/img/portfolio-projects/natours.png"/>
+                        <Image width={1200} height={1200} alt={`natours img`} src="/img/portfolio-projects/natours.png"/>
                         <p>This project was built using Express and MongoDB. It allows payment processing through stripe which was tricky to implement do to depreciation of certain properties in the stripe webhook connection.</p>
                         <a className="button_2" href="https://mighty-oasis-83517.herokuapp.com/">View App</a>
                       </div>

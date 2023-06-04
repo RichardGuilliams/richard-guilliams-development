@@ -25,7 +25,7 @@ function AboutSection({ isActive }) {
     <div className={`section section__extra-margin slide-up ${isAnimated ? 'slide-in' : ''}`} id="about">
       <div>
         <h2>About Me</h2>
-        <p>Hello, I&apos;m Richard, a web developer with a deep passion for gaming, music, and movies. I have honed my programming skills through various platforms such as Udemy, YouTube, and valuable resources like W3Schools and Stack Overflow. My dream is to earn my living working from home, using the skills I have and continue working hard to strengthen.</p>
+        <p>Hello, I&apos;m Richard, a web developer with a deep passion for gaming, music, and movies. I have honed my programming skills through various platforms such as Udemy, YouTube, and resources like W3Schools and Stack Overflow. My dream is to earn my living working from home, using the skills I have gained to advance my career while enjoying the freedom of working remotely.</p>
       </div>
     </div>
   )
