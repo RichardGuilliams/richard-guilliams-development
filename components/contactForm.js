@@ -8,7 +8,7 @@ export const ContactForm = ({displayAlert}) => {
     const sendEmail = function(e) {
       e.preventDefault();
   
-      emailjs.sendForm(`service_r19ow5a`, `template_i4htqjf`, form.current, `taGd6VV8u3qghQ1WT`)
+      emailjs.sendForm(`${process.env.EMAIL_SERVICE_ID}`, `${process.env.EMAIL_TEMPLATE_ID}`, form.current, `${process.env.EMAIL_KEY}`)
         .then((result) => {
             displayAlert('success');
             console.log (result.text);
