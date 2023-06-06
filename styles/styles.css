@@ -173,6 +173,22 @@ header > nav > ul > li > a {
   font-size: .9rem;
 }
 
+.alert{
+ padding: 2rem 4rem; 
+}
+
+.alert-success{
+  background-color: var(--secondary-color);
+}
+
+.alert-error{
+  background-color: var(--secondary-color);
+}
+
+.hidden{
+  display: none;
+}
+
 .nav-hidden{
   display: none;
 }

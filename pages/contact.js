@@ -38,7 +38,7 @@ function ContactSection({displayAlert}){
   return( 
     <div className={`section section__extra-margin slide-down ${isAnimated ? 'slide-in' : ''}`} id="contact">
         <h2>Ready to Boost Your Online Presence?</h2>
-        <p>Get in touch with me and take your digital success to new heights. Whether you&apos;re a small business seeking a captivating website or a larger project requiring the expertise of a skilled JavaScript developer, I&apos;ve got you covered. Let&apos;s collaborate and transform your ideas into reality. Click the button below to get started!</p>
+        <p>Get in touch with me and take your digital success to new heights. Whether you&apos;re a small business seeking a captivating website or a larger project requiring the expertise of a skilled JavaScript developer, I&apos;ve got you covered. Let&apos;s collaborate and transform your ideas into reality. Fill out the form below to get started!</p>
         <ContactForm displayAlert={displayAlert}/>
     </div>
   )

@@ -21,31 +21,31 @@ export const ContactForm = ({displayAlert}) => {
     return(
         <form ref={form} onSubmit={sendEmail} id="contact__form">
             <div className="form__group">
-                <label for="firstName">First Name:</label>
+                <label htmlFor="firstName">First Name:</label>
                 <input required id="firstName" name="firstName" type="text" placeholder="Enter your first name..."></input>
             </div>
             <div className='form__group'>
-                <label for="lastName">Last Name:</label>
+                <label htmlFor="lastName">Last Name:</label>
                 <input required id="lastName" name="lastName" type="text" placeholder="Enter your last name..."></input>
             </div>
             <div className="form__group">
-                <label for="email">Email:</label>
+                <label htmlFor="email">Email:</label>
                 <input required type="email" id="email" name="email" placeholder="Enter your first name..."></input>
             </div>
             <div className='form__group'>
-                <label for="businessName">Business Name:</label>
+                <label htmlFor="businessName">Business Name:</label>
                 <input required id="businessName" name="businessName" type="text" placeholder="Enter your business name..."></input>
             </div>
             <div className='form__group'>
-                <label for="websiteUrl">Business Name:</label>
+                <label htmlFor="websiteUrl">Business Name:</label>
                 <input id="websiteUrl" name="websiteUrl" type="text" placeholder="Enter your websites url if you have one..."></input>
             </div>
             <div className='form__group'>
-                <label for="service">Service:</label>
+                <label htmlFor="service">Service:</label>
                 <ServiceEnum/>  
             </div>
             <div className='form__group'>
-                <label className="message__label" id="message-label" for="message">Message:</label>
+                <label className="message__label" id="message-label" htmlFor="message">Message:</label>
                 <textarea required placeholder='Enter a brief message describing the details of the project or service you wish to inquire about...' id="message" name="message" rows="4" cols="50"/>  
             </div>
             <button type={`submit`}>Submit</button>       
