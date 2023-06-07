@@ -20,7 +20,7 @@ function Contact(){
 
   return(
     <div>
-      {showAlert && <Alert status={alertStatus} />}
+      {showAlert && <Alert status={alertStatus}/>}
       <Header/>
       <ContactSection displayAlert={displayAlert}/>
       <Footer/>

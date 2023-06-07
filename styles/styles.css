@@ -174,15 +174,33 @@ header > nav > ul > li > a {
 }
 
 .alert{
- padding: 2rem 4rem; 
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 3rem;
+  border-radius: 0 0 10px 10px; 
+}
+
+.alert > h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+.alert > p {
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
 }
 
 .alert-success{
-  background-color: var(--secondary-color);
+  background-color: rgb(61, 249, 61);
 }
 
 .alert-error{
-  background-color: var(--secondary-color);
+  background-color: rgb(255, 36, 36);
 }
 
 .hidden{
